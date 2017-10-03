@@ -6,8 +6,8 @@
         $.fn.luchoJaraScript = function (options) {
 
             var settings = $.extend({
-                player: false,
-                autoplay: false,
+                player: true,
+                autoplay: true,
                 english: false
             }, options);
 
